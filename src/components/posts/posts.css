@@ -1,6 +1,16 @@
 .posts {
+  width: 100%;
   flex: 9;
   display: flex;
   flex-wrap: wrap;
   margin: 20px;
+}
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .posts {
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+    display: contents;
+  }
 }
